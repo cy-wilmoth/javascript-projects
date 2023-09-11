@@ -1,0 +1,32 @@
+let age = (5)
+console.log (age++)
+console.log (age++)
+console.log (age++)
+
+let aging = (age++)
+console.log(aging)
+console.log(aging)
+console.log(aging)
+
+age = age++
+console.log(age)
+console.log(age)
+console.log(age)
+
+// Moving on to PEMDAS and exponentiation 
+// The following string reads as "2^8 * 3"
+
+console.log(2 ** 2 ** 3 * 3)
+
+//This changes with parenthases
+// I like the Expression more without the unecessary spaces
+console.log((2 ** 2) ** 3 * 3)
+console.log(((2**2)**2)*3)
+
+// Moving on to requesting and storing data
+console.log(" ")
+console.log(" ")
+
+console.log(1 + 5 % 3)
+
+console.log(16 - 2 * 5 / 3 + 1)
