@@ -9,7 +9,36 @@
 // 5. Use console.log(reverseCharacters(myVariableName)); to call the function and verify that it correctly reverses the characters in the string.
 // 6. Optional: Use method chaining to reduce the lines of code within the function.
 
+let string = "apple"
+
+function reverseCharacters(string) {
+    let reversedString = ' ';
+
+    if (typeof(string) === "String") {
+        let reversedArray = string.split(' ').reverse();
+        return reversedArray.join(' ');
+    }    
+
+console.log(reverseCharacers(string));
+
 // Part Two: Reverse Digits
+
+let string = "apple"
+
+function reverseCharacters(string) {
+    let reversedString = ' ';
+
+    if (typeof(string) === "String") {
+        let reversedArray = string.split(' ').reverse();
+        return reversedArray.join(' ');
+    } else if (typeof(string) === "Number") {
+        let string === String(string);
+        let reversedArray = string.split(' ').reverse();
+        return reversedArray.join(' ');
+        }
+    }    
+
+console.log(reverseCharacers(string));
 
 // 1. Add an if statement to reverseCharacters to check the typeof the parameter.
 // 2. If typeof is ‘string’, return the reversed string as before.
@@ -30,6 +59,15 @@ let arrayTest1 = ['apple', 'potato', 'Capitalized Words'];
 let arrayTest2 = [123, 8897, 42, 1168, 8675309];
 let arrayTest3 = ['hello', 'world', 123, 'orange'];
 
+function completeReversal(newArray) {
+    let newArray = [];
+    for (i = 0; i < arrayTest1.length; i++) {
+    reverseCharacters[i];
+    return reverseCharacters.join(' ').push(newArray);
+    }
+return newArray;
+}
+
 // Bonus Missions
 
 // 1. Have a clear, descriptive name like funPhrase.
@@ -49,3 +87,4 @@ let arrayTest3 = ['hello', 'world', 123, 'orange'];
 // 3. Call your area function by passing in two arguments - the length and width.
 // 4. If only one argument is passed to the function, then the shape is a square. Modify your code to deal with this case.
 // 5. Use a template literal to print, “The area is ____ cm^2.”
+
